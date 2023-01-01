@@ -47,4 +47,9 @@ public class UsersController {
         return jwtService.login(request, user, userAgent);
     }
 
+    @RequestMapping("/hello")
+    public String hello() {
+        return "hello";
+    }
+
 }

@@ -20,7 +20,6 @@ public class BoardController extends Controller{
         super(boardRepository, jwtService, jwtTokenProvider);
     }
 
-
     @PostMapping("/write")
         public Board writeBoard(HttpServletRequest request, @RequestBody Map<String, String> post) {
             String info = getUserInfo(request);

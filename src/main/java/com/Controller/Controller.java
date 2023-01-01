@@ -29,11 +29,4 @@ public abstract class Controller {
         return jwtService;
     }
 
-
-
-
-
-
-
-
 }
